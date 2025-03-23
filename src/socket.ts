@@ -47,6 +47,6 @@ export class WebSocketClient {
   }
 
   public close() {
-    this.socket.close();
+    this.socket.terminate();
   }
 }
